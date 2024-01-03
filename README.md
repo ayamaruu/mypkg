@@ -34,11 +34,14 @@ ros2 run mypkg listener
 ```
 すると以下のように表示されます。
 ```
-[INFO] [Listener]: Listen: 1
-[INFO] [Listener]: Listen: 2
+[INFO] [1704232808.151531925] [listener]: age: 44
 ```
 Ctrl Cを押せばプログラムは終了します。
-
+また、listenerを先に実行し、talkerをあとで実行すると、talkerを実行するまでの間、
+```
+[INFO] [1704233038.987095365] [listener]: 待機中
+```
+が表示され続けます。
 ## 備考
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます.
 * このパッケージのコードは下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを,本人の許可を得て自身の著作としたものです.
