@@ -1,19 +1,12 @@
 [![test](https://github.com/ayamaruu/src/actions/workflows/test.yml/badge.svg)](https://github.com/ayamaruu/src/actions/workflows/test.yml)
 
-以下のコードはros2のツールとして使用できるものを提示しています。
+* ロボットシステム学用のレポジトリ
+* ros2のパッケージ
 ## 導入方法
-1.下記のリンクからサイトにとぶ
+1.ターミナルを起動し、自分がコピーしたいディレクトリに移動する
+2.ターミナル上で以下のコマンドを入力する
 ```
-https://github.com/ayamaruu/src
-```
-2.ROS2のワークスペース上で以下のコードを実行する
-```
-colcon build
-source ~/.bashrc
-```
-これらのプログラムを使用し、それぞれをファイルに保存し、ターミナルで以下の操作を行うことによって使用可能になる
-```
-chmod +x ファイル名
+git clone git@github.com:ayamaruu/src.git
 ```
 ## 必要なソフトウェア
 * Python
