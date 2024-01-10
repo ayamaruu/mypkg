@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2023 Ayaka Murakoshi
 # SPDX-Linense-Identifier: BSD-3-Clause
 
